@@ -16,21 +16,27 @@
   </head>
   <body>
     <header>
-      <div class="navcont">
-        <nav>
+      <div>
+        <nav class="navcont">
           <a href="./index.html">
             <img src="./img/WebStudio.svg" alt="логотип"
           /></a>
           <ul class="site-nav">
-            <li><a href="./index.html" class="link current">Студия </a></li>
-            <li><a href="" class="link">Контакты </a></li>
-            <li><a href="./portfolio.html" class="link"> Портфолио </a></li>
+            <li class="navli">
+              <a href="./index.html" class="link">Студия </a>
+            </li>
+            <li class="navli"><a href="" class="link">Контакты </a></li>
+            <li class="navli">
+              <a href="./portfolio.html" class="link current"> Портфолио </a>
+            </li>
           </ul>
+          <address class="adress-nav">
+            <a class="alink" href="tel:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="alink" href="mailto:+380961111111">+38 096 111 11 11</a>
+          </address>
         </nav>
-        <address class="adress-nav">
-          <a class="alink" href="tel:info@devstudio.com">info@devstudio.com</a>
-          <a class="alink" href="mailto:+380961111111">+38 096 111 11 11</a>
-        </address>
       </div>
     </header>
     <main>
@@ -43,8 +49,8 @@
       </div>
       <!-- качества  -->
       <section class="quality">
-        <ul>
-          <div class="qualitycont">
+        <div class="qualitycont">
+          <ul>
             <li>
               <h3 class="quality-title">Внимание к деталям</h3>
               <p class="quality-text">
@@ -73,61 +79,67 @@
                 плановых заданий.
               </p>
             </li>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </section>
       <!-- чем занимаемся  -->
       <section class="work">
         <h2 class="work-title">Чем мы занимаемся</h2>
-        <!-- возможно нужно сделать списком -->
-        <ul>
-          <li>
-            <a href="">
-              <img src="./img/box1.png" alt="программирование" width="370"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./img/box2.png"
-                alt="разработка приложений"
-                width="370"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/box3.png" alt="графический дизайн" width="370"
-            /></a>
-          </li>
-        </ul>
+        <div class="workcont">
+          <ul class="worklist">
+            <li>
+              <a href="">
+                <img
+                  class="workimg"
+                  src="./img/box1.png"
+                  alt="программирование"
+                  width="370"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./img/box2.png"
+                  alt="разработка приложений"
+                  width="370"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/box3.png" alt="графический дизайн" width="370"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- наша команда -->
       <section class="team">
-        <h2 class="team-title">Наша команда</h2>
-        <!-- возможно figure и активные фото -->
-        <ul>
-          <li>
-            <img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270" />
-            <h3 class="team-maintitle">Игорь Демьяненко</h3>
-            <p class="team-text" lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img src="./img/olga.jpg" alt="Ольга Репина" width="270" />
-            <h3 class="team-maintitle">Ольга Репина</h3>
-            <p class="team-text" lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./img/nikolay.jpg" alt="Николай Тарасов" width="270" />
-            <h3 class="team-maintitle">Николай Тарасов</h3>
+        <div class="teamcont">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="teamlist">
+            <li>
+              <img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270" />
+              <h3 class="team-maintitle">Игорь Демьяненко</h3>
+              <p class="team-text" lang="en">Product Designer</p>
+            </li>
+            <li>
+              <img src="./img/olga.jpg" alt="Ольга Репина" width="270" />
+              <h3 class="team-maintitle">Ольга Репина</h3>
+              <p class="team-text" lang="en">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./img/nikolay.jpg" alt="Николай Тарасов" width="270" />
+              <h3 class="team-maintitle">Николай Тарасов</h3>
 
-            <p class="team-text" lang="en">Marketing</p>
-          </li>
-          <li>
-            <img src="./img/mihail.jpg" alt="Михаил Ермаков" width="270" />
-            <h3 class="team-maintitle">Михаил Ермаков</h3>
-            <p class="team-text" lang="en">UI Designer</p>
-          </li>
-        </ul>
+              <p class="team-text" lang="en">Marketing</p>
+            </li>
+            <li>
+              <img src="./img/mihail.jpg" alt="Михаил Ермаков" width="270" />
+              <h3 class="team-maintitle">Михаил Ермаков</h3>
+              <p class="team-text" lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
