@@ -16,21 +16,21 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="divnav contentbox">
         <nav class="navcont">
-          <a href="./index.html">
+          <a class="navlogo" href="./index.html">
             <img src="./img/WebStudio.svg" alt="логотип"
           /></a>
           <ul class="site-nav">
             <li class="navli">
-              <a href="./index.html" class="link">Студия </a>
+              <a href="./index.html" class="link current">Студия </a>
             </li>
             <li class="navli"><a href="" class="link">Контакты </a></li>
             <li class="navli">
-              <a href="./portfolio.html" class="link current"> Портфолио </a>
+              <a href="./portfolio.html" class="link"> Портфолио </a>
             </li>
           </ul>
-          <address class="adress-nav">
+          <address class="adress-nav contentbox">
             <a class="alink" href="tel:info@devstudio.com"
               >info@devstudio.com</a
             >
@@ -42,37 +42,37 @@
     <main>
       <!-- герой -->
       <div>
-        <section class="hero">
+        <section class="hero contentbox">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <a class="button" href="">Заказать услугу</a>
         </section>
       </div>
       <!-- качества  -->
       <section class="quality">
-        <div class="qualitycont">
-          <ul>
-            <li>
+        <div class="qualitycont contentbox">
+          <ul class="qualityul">
+            <li class="qualityli">
               <h3 class="quality-title">Внимание к деталям</h3>
               <p class="quality-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="qualityli">
               <h3 class="quality-title">Пунктуальность</h3>
               <p class="quality-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="qualityli">
               <h3 class="quality-title">Планирование</h3>
               <p class="quality-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="qualityli">
               <h3 class="quality-title">Современные технологии</h3>
               <p class="quality-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -84,10 +84,10 @@
       </section>
       <!-- чем занимаемся  -->
       <section class="work">
-        <h2 class="work-title">Чем мы занимаемся</h2>
-        <div class="workcont">
+        <div class="workcont contentbox">
+          <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="worklist">
-            <li>
+            <li class="workimg">
               <a href="">
                 <img
                   class="workimg"
@@ -96,7 +96,7 @@
                   width="370"
               /></a>
             </li>
-            <li>
+            <li class="workimg">
               <a href=""
                 ><img
                   src="./img/box2.png"
@@ -104,7 +104,7 @@
                   width="370"
               /></a>
             </li>
-            <li>
+            <li class="workimg">
               <a href=""
                 ><img src="./img/box3.png" alt="графический дизайн" width="370"
               /></a>
@@ -114,26 +114,26 @@
       </section>
       <!-- наша команда -->
       <section class="team">
-        <div class="teamcont">
+        <div class="teamcont contentbox">
           <h2 class="team-title">Наша команда</h2>
           <ul class="teamlist">
-            <li>
+            <li class="teamcard">
               <img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270" />
               <h3 class="team-maintitle">Игорь Демьяненко</h3>
               <p class="team-text" lang="en">Product Designer</p>
             </li>
-            <li>
+            <li class="teamcard">
               <img src="./img/olga.jpg" alt="Ольга Репина" width="270" />
               <h3 class="team-maintitle">Ольга Репина</h3>
               <p class="team-text" lang="en">Frontend Developer</p>
             </li>
-            <li>
+            <li class="teamcard">
               <img src="./img/nikolay.jpg" alt="Николай Тарасов" width="270" />
               <h3 class="team-maintitle">Николай Тарасов</h3>
 
               <p class="team-text" lang="en">Marketing</p>
             </li>
-            <li>
+            <li class="teamcard">
               <img src="./img/mihail.jpg" alt="Михаил Ермаков" width="270" />
               <h3 class="team-maintitle">Михаил Ермаков</h3>
               <p class="team-text" lang="en">UI Designer</p>
@@ -143,17 +143,19 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footerlogo" href="./index.html">
-        <img src="./img/WebStudio2.svg" alt="logo"
-      /></a>
-      <address class="footer-address">
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a class="footer-link" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        ><br />
-        <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        <br />
-      </address>
+      <div class="footercont contentbox">
+        <a class="footerlogo contentbox" href="./index.html">
+          <img src="./img/WebStudio2.svg" alt="logo"
+        /></a>
+        <address class="footer-address contentbox">
+          г. Киев, пр-т Леси Украинки, 26 <br />
+          <a class="footer-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          ><br />
+          <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <br />
+        </address>
+      </div>
     </footer>
   </body>
 </html>
