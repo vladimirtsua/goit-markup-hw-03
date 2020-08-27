@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navcont contentbox">
-        <div class="divnav">
+    <header class="page-header">
+      <div class="conteiner">
+        <nav class="navcont flexbox">
           <a class="navlogo" href="./index.html">
             <img src="./img/WebStudio.svg" alt="логотип"
           /></a>
-          <ul class="site-nav">
+          <ul class="listt site-nav">
             <li class="navli">
               <a href="./index.html" class="link">Студия </a>
             </li>
@@ -30,21 +30,21 @@
               <a href="./portfolio.html" class="link current"> Портфолио </a>
             </li>
           </ul>
-          <address class="adress-nav contentbox">
+          <address class="adress-nav">
             <a class="alink" href="tel:info@devstudio.com"
               >info@devstudio.com</a
             >
             <a class="alink" href="mailto:+380961111111">+38 096 111 11 11</a>
           </address>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- nav-button -->
 
-      <section class="navbutsection contentbox">
-        <div class="butnowcont">
-          <ul class="navbut">
+      <section class="navbutsection">
+        <div class="conteiner flexbox">
+          <ul class="listt navbut">
             <li class="navbutli">
               <button type="button" class="nav-list">Все</button>
             </li>
@@ -64,13 +64,15 @@
         </div>
       </section>
       <!-- example -->
-      <section class="example contentbox">
-        <div class="examplecont">
-          <ul class="examul">
+      <section class="example">
+        <div class="conteiner flexbox">
+          <ul class="listt examul">
             <li class="exampleelements">
               <a href=""> <img src="./img/por1.jpg" alt="технокряк" /> </a>
-              <h2 class="example-title">Технокряк</h2>
-              <p class="example-text">Веб-сайт</p>
+              <div class="listt titlediv">
+                <h2 class="example-title">Технокряк</h2>
+                <p class="example-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href="">
@@ -79,53 +81,69 @@
                   alt="Постер New Orlean vs Golden Star"
                 />
               </a>
-              <h2 class="example-title">Постер New Orlean vs Golden Star</h2>
-              <p class="example-text">Дизайн</p>
+              <div class="titlediv">
+                <h2 class="example-title">Постер New Orlean vs Golden Star</h2>
+                <p class="example-text">Дизайн</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href="">
                 <img src="./img/por3.jpg" alt="Ресторан Seafood" />
               </a>
-              <h2 class="example-title">Ресторан Seafood</h2>
-              <p class="example-text">Приложение</p>
+              <div class="titlediv">
+                <h2 class="example-title">Ресторан Seafood</h2>
+                <p class="example-text">Приложение</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href=""> <img src="./img/por4.jpg" alt="Проект Prime" /> </a>
-              <h2 class="example-title">Проект Prime</h2>
-              <p class="example-text">Маркетинг</p>
+              <div class="titlediv">
+                <h2 class="example-title">Проект Prime</h2>
+                <p class="example-text">Маркетинг</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href=""> <img src="./img/por5.jpg" alt="Проект Boxes" /> </a>
-              <h2 class="example-title">Проект Boxes</h2>
-              <p class="example-text">Приложение</p>
+              <div class="titlediv">
+                <h2 class="example-title">Проект Boxes</h2>
+                <p class="example-text">Приложение</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href="">
                 <img src="./img/por6.jpg" alt="Inspiration has no Borders" />
               </a>
-              <h2 class="example-title">Inspiration has no Borders</h2>
-              <p class="example-text">Веб-сайт</p>
+              <div class="titlediv">
+                <h2 class="example-title">Inspiration has no Borders</h2>
+                <p class="example-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href="">
                 <img src="./img/por7.jpg" alt="Издание Limited Edition" />
               </a>
-              <h2 class="example-title">Издание Limited Edition</h2>
-              <p class="example-text">Дизайн</p>
+              <div class="titlediv">
+                <h2 class="example-title">Издание Limited Edition</h2>
+                <p class="example-text">Дизайн</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href="">
                 <img src="./img/por8.jpg" alt="Проект LAB" />
               </a>
-              <h2 class="example-title">Проект LAB</h2>
-              <p class="example-text">Маркетинг</p>
+              <div class="titlediv">
+                <h2 class="example-title">Проект LAB</h2>
+                <p class="example-text">Маркетинг</p>
+              </div>
             </li>
             <li class="exampleelements">
               <a href="">
                 <img src="./img/por9.jpg" alt="Growing Business" />
               </a>
-              <h2 class="example-title">Growing Business</h2>
-              <p class="example-text">Приложение</p>
+              <div class="titlediv">
+                <h2 class="example-title">Growing Business</h2>
+                <p class="example-text">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -133,11 +151,11 @@
     </main>
 
     <footer class="footer">
-      <div class="footercont contentbox">
-        <a class="footerlogo contentbox" href="./index.html">
+      <div class="conteiner footerdiv">
+        <a class="footerlogo" href="./index.html">
           <img src="./img/WebStudio2.svg" alt="logo"
         /></a>
-        <address class="footer-address contentbox">
+        <address class="footer-address">
           г. Киев, пр-т Леси Украинки, 26 <br />
           <a class="footer-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
