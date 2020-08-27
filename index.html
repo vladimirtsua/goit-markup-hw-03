@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navcont contentbox">
-        <div class="divnav">
+    <header class="page-header">
+      <div class="conteiner">
+        <nav class="navcont flexbox">
           <a class="navlogo" href="./index.html">
             <img src="./img/WebStudio.svg" alt="логотип"
           /></a>
-          <ul class="site-nav">
+          <ul class="listt site-nav">
             <li class="navli">
               <a href="./index.html" class="link current">Студия </a>
             </li>
@@ -36,21 +36,23 @@
             >
             <a class="alink" href="mailto:+380961111111">+38 096 111 11 11</a>
           </address>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- герой -->
-      <div>
-        <section class="hero contentbox">
+
+      <section class="hero">
+        <div class="herocontent">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <a class="button" href="">Заказать услугу</a>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- качества  -->
-      <section class="quality">
-        <div class="qualitycont contentbox">
-          <ul class="qualityul">
+      <section class="section quality">
+        <div class="conteiner flexbox">
+          <ul class="listt qualityul">
             <li class="qualityli">
               <h3 class="quality-title">Внимание к деталям</h3>
               <p class="quality-text">
@@ -83,17 +85,13 @@
         </div>
       </section>
       <!-- чем занимаемся  -->
-      <section class="work">
-        <div class="workcont contentbox">
+      <section class="section work">
+        <div class="conteiner">
           <h2 class="work-title">Чем мы занимаемся</h2>
-          <ul class="worklist">
+          <ul class="listt worklist">
             <li class="workimg">
               <a href="">
-                <img
-                  class="workimg"
-                  src="./img/box1.png"
-                  alt="программирование"
-                  width="370"
+                <img src="./img/box1.png" alt="программирование" width="370"
               /></a>
             </li>
             <li class="workimg">
@@ -113,28 +111,31 @@
         </div>
       </section>
       <!-- наша команда -->
-      <section class="team">
-        <div class="teamcont contentbox">
+      <section class="section team">
+        <div class="conteiner flex">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="teamlist">
+          <ul class="list teamlist">
             <li class="teamcard">
               <img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270" />
+
               <h3 class="team-maintitle">Игорь Демьяненко</h3>
               <p class="team-text" lang="en">Product Designer</p>
             </li>
             <li class="teamcard">
               <img src="./img/olga.jpg" alt="Ольга Репина" width="270" />
+
               <h3 class="team-maintitle">Ольга Репина</h3>
               <p class="team-text" lang="en">Frontend Developer</p>
             </li>
             <li class="teamcard">
               <img src="./img/nikolay.jpg" alt="Николай Тарасов" width="270" />
-              <h3 class="team-maintitle">Николай Тарасов</h3>
 
+              <h3 class="team-maintitle">Николай Тарасов</h3>
               <p class="team-text" lang="en">Marketing</p>
             </li>
             <li class="teamcard">
               <img src="./img/mihail.jpg" alt="Михаил Ермаков" width="270" />
+
               <h3 class="team-maintitle">Михаил Ермаков</h3>
               <p class="team-text" lang="en">UI Designer</p>
             </li>
@@ -143,11 +144,11 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footercont contentbox">
-        <a class="footerlogo contentbox" href="./index.html">
+      <div class="conteiner footerdiv">
+        <a class="footerlogo" href="./index.html">
           <img src="./img/WebStudio2.svg" alt="logo"
         /></a>
-        <address class="footer-address contentbox">
+        <address class="footer-address">
           г. Киев, пр-т Леси Украинки, 26 <br />
           <a class="footer-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
